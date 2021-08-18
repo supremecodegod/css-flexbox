@@ -1,0 +1,46 @@
+.hero {
+    height: 100vh;
+    background-image: url(/images/luxury-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  #header{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: center;
+  }
+  #menu-icon{
+      color: white;
+     font-size: 50px;
+  }
+  #logo{
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+  }
+  .hero-header{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .hero-title{
+      color:white;
+  }
+  .hero-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
